@@ -1,4 +1,3 @@
-### Key Takeaway
 This project focuses on using a finite state machine to control the movement of an animal symbol on a VGA screen. The lab involves implementing Verilog codes to demonstrate various functionalities, including animal movement, correct motion of cars and trucks, accurate display of accumulated steps, boundary checking, successful crossing conditions, and failure indications.
 
 ### Summary
