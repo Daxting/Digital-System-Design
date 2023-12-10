@@ -1,1 +1,40 @@
-Cats & Dogs Remake
+Key Takeaway
+The web page outlines the final project "貓狗大戰" (Cat and Dog Battle) in digital system design, showcasing a successful game implementation with various hardware components.
+
+Summary
+Introduction:
+
+Implements DIP Switch, Push Button, Keyboard, Screen, LED lights, and a seven-segment display.
+Input/Output Control:
+
+Manages difficulty, wind speed, and weapon selection through switches, buttons, and keyboard.
+Visual Feedback:
+
+LED lights provide feedback on hitting/missing the dog, success/failure, and specific game events.
+Display Information:
+
+Seven-segment display shows current level, throw power, wind speed, remaining throws, and the dog's life.
+Game Screen:
+
+Displays the game on a 480x640 pixel screen, with each grid sized at 60x40 pixels.
+Game Rules:
+
+Cat aims to defeat a dog with 9 life points within 5 throws, using different weapons.
+Level 1 is straightforward, Level 2 introduces wind speed, cat movement, bomb mechanics, and obstacles.
+Map Design:
+
+Specifies cat and weapon sizes, initial positions.
+In Level 2, obstacles change height, and the dog moves invisibly during certain intervals.
+Throwing Mechanism:
+
+Weapons thrown at a 45-degree angle, with speed and direction affected by throw power and wind speed.
+Scoring Criteria:
+
+Level 1 (55%): Correct LED and seven-segment display, screen, dog movement, weapon display, trajectory, and success/failure determination.
+Level 2 (45%): Assesses obstacle behavior, keyboard control, bomb mechanics, wind speed display, trajectory, and success/failure determination.
+Outcome:
+
+Successful integration of hardware components for an engaging game.
+Submission Requirements:
+
+Report with source code, FPGA demo, and work distribution breakdown among group members.
