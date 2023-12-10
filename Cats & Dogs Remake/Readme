@@ -1,8 +1,4 @@
-```markdown
-### Key Takeaway
-The web page outlines the final project "貓狗大戰" (Cat and Dog Battle) in digital system design, emphasizing a successful game implementation with various hardware components.
-
-### Summary
+### Summary   
 - **Introduction:**
   - Implements DIP Switch, Push Button, Keyboard, Screen, LED lights, and a seven-segment display.
 
