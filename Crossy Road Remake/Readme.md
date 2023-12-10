@@ -31,4 +31,4 @@ This project focuses on using a finite state machine to control the movement of 
       - LED blinking in case of failure.
   2. Conduct a demo during the lab time.
 
-*Note: The lab aims to simulate a game scenario on the FPGA board, testing the implementation of digital design concepts and verification of correct functionality.*
+*Note: The project aims to simulate a game scenario on the FPGA board, testing the implementation of digital design concepts and verification of correct functionality.*
