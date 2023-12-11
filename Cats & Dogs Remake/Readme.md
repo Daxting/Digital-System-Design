@@ -1,3 +1,4 @@
+The project involves utilizing various input and output devices, such as DIP Switches, Push Buttons, a keyboard, a screen, LED lights, and a seven-segment display, to create a cat-and-dog-themed game.
 
 ### Summary
 - **Introduction:**
