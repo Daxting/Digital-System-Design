@@ -35,8 +35,6 @@
 - **Learning Highlights:**
   - Gained experience in hardware integration, game dynamics, and problem-solving.
 
-- **Submission Requirements:**
-  - Report with source code, FPGA demo, and work distribution among group members.
 
 <img width="313" alt="image" src="https://github.com/Daxting/Digital-System-Design/assets/124947223/d0d0712e-6fed-4135-9c97-b87eabb21be9">
 <img width="333" alt="image" src="https://github.com/Daxting/Digital-System-Design/assets/124947223/40b9f890-a1d7-45e7-8af2-1c25e99b41d3">
