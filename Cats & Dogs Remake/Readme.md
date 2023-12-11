@@ -3,25 +3,25 @@
 - **Introduction:**
   - Implements DIP Switch, Push Button, Keyboard, Screen, LED lights, and a seven-segment display.
 
-**Control and Interaction:**
-Manages difficulty, wind speed, and weapon selection through switches, buttons, and keyboard.
+- **Control and Interaction:**
+  - Manages difficulty, wind speed, and weapon selection through switches, buttons, and keyboard.
 
-**Visual Feedback:**
-LED lights provide feedback on hitting/missing the dog, success/failure, and game events.
+- **Visual Feedback:**
+  - LED lights provide feedback on hitting/missing the dog, success/failure, and game events.
 
-**Display Information:**
-Seven-segment display shows current level, throw power, wind speed, remaining throws, and the dog's life.
+- **Display Information:**
+  - Seven-segment display shows current level, throw power, wind speed, remaining throws, and the dog's life.
 
-**Game Screen:**
-Displays the game on a 480x640 pixel screen, with each grid sized at 60x40 pixels.
+- **Game Screen:**
+  - Displays the game on a 480x640 pixel screen, with each grid sized at 60x40 pixels.
 
-**Game Dynamics:**
-Cat aims to defeat a dog with 9 life pointswithin 5 throws, using different weapons.
-Level 1 is straightforward, Level 2 introduces wind speed, cat movement, bomb mechanics, and obstacles.
+- **Game Dynamics:**
+  - Cat aims to defeat a dog with 9 life pointswithin 5 throws, using different weapons.
+  - Level 1 is straightforward, Level 2 introduces wind speed, cat movement, bomb mechanics, and obstacles.
 
-**Map Design:**
-Specifies cat and weapon sizes, initial positions.
-In Level 2, obstacles change height, and the dog moves invisibly during intervals.
+- **Map Design:**
+  - Specifies cat and weapon sizes, initial positions.
+  - In Level 2, obstacles change height, and the dog moves invisibly during intervals.
 
 - **Throwing Mechanism:**
   - Weapons thrown at a 45-degree angle, influenced by throw power and wind speed.
