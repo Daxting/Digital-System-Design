@@ -31,3 +31,6 @@ This project focuses on using a finite state machine to control the movement of 
   2. Conduct a demo during the lab time.
 
 *Note: The project aims to simulate a game scenario on the FPGA board, testing the implementation of digital design concepts and verification of correct functionality.*
+
+![image](https://github.com/Daxting/Digital-System-Design/assets/124947223/81a6e40d-c07f-4304-bf45-62f31bb81c48)
+
