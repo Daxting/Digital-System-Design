@@ -1,42 +1,52 @@
-The project involves utilizing various input and output devices, such as DIP Switches, Push Buttons, a keyboard, a screen, LED lights, and a seven-segment display, to create a cat-and-dog-themed game.
+1. **Introduction** 
 
-### Summary
-- **Introduction:**
-  - Implements DIP Switch, Push Button, Keyboard, Screen, LED lights, and a seven-segment display.
+This  level-based  game  features movable  characters,  a  controllable environment,  and  two  types  of weapons. Players will use a keyboard, screen,  and  FPGA  board  (including switches,  push  buttons,  LEDs,  and seven-segment  displays)  to  navigate and interact with the game. 
 
-- **Control and Interaction:**
-  - Manages difficulty, wind speed, and weapon selection through switches, buttons, and keyboard.
-
-- **Visual Feedback:**
-  - LED lights provide feedback on hitting/missing the dog, success/failure, and game events.
-
-- **Display Information:**
-  - Seven-segment display shows current level, throw power, wind speed, remaining throws, and the dog's life.
-
-- **Game Screen:**
-  - Displays the game on a 480x640 pixel screen, with each grid sized at 60x40 pixels.
-
-- **Game Dynamics:**
-  - Cat aims to defeat a dog with 9 life pointswithin 5 throws, using different weapons.
-  - Level 1 is straightforward, Level 2 introduces wind speed, cat movement, bomb mechanics, and obstacles.
-
-- **Map Design:**
-  - Specifies cat and weapon sizes, initial positions.
-  - In Level 2, obstacles change height, and the dog moves invisibly during intervals.
-
-- **Throwing Mechanism:**
-  - Weapons thrown at a 45-degree angle, influenced by throw power and wind speed.
-
-- **Project Outcome:**
-  - Successfully integrates hardware components for an engaging game.
-
-- **Portfolio Integration:**
-  - The project is included in the portfolio, showcasing practical skills in digital system design.
-
-- **Learning Highlights:**
-  - Gained experience in hardware integration, game dynamics, and problem-solving.
+2. **Input Control Explanation** 
 
 
-<img width="313" alt="image" src="https://github.com/Daxting/Digital-System-Design/assets/124947223/d0d0712e-6fed-4135-9c97-b87eabb21be9">
-<img width="333" alt="image" src="https://github.com/Daxting/Digital-System-Design/assets/124947223/40b9f890-a1d7-45e7-8af2-1c25e99b41d3">
+![image](https://github.com/user-attachments/assets/b80a6c0a-fc4b-4d4a-9f10-e2cb4e61cec5)
 
+
+
+Fig. 1 Switches & Push Buttons 
+
+- Switches:  Control  game  level, wind speed, and weapon type. 
+- Push  Buttons:  Control  attack, power adjustment, and game reset. 
+- Keyboard:  Move  the  cat  and detonate the bomb.  
+3. **Output Control Explanation** 
+
+![image](https://github.com/user-attachments/assets/feecdc62-2cf3-4aad-811f-bd2c89fa44ab)
+
+
+
+Fig. 2 LEDs Control (Win) 
+
+
+![image](https://github.com/user-attachments/assets/3d587253-1d09-473d-a971-a2d6c535a85c)
+
+
+
+Fig. 3 Seven-Segments Control 
+
+
+![image](https://github.com/user-attachments/assets/9f4d8d93-6647-4f8a-9f4d-e89d900fbce1)
+
+
+
+Fig. 4 the display of the game 
+
+4. **The structure of the program** 
+
+
+![image](https://github.com/user-attachments/assets/ce5a36fe-4f59-4608-b653-ee258a2cc3f5)
+
+
+
+Fig. 5 Block Control Diagram 
+
+In Fig. 5, the system control block diagram  is  categorized  into  three classes: Input/Output (green), Event Trigger  (orange),  and  Self-Control Objects  (blue).  It  clearly  illustrates the  signal  control  architecture  and interactions,  presenting  a  cohesive overall system design. 
+
+5. **Reflection** 
+- Learn  to  control  various  I/O devices on FPGA. 
+- Design a system using a Mealy machine. 
