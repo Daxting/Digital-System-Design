@@ -5,7 +5,9 @@ This  level-based  game  features movable  characters,  a  controllable environm
 2. **Input Control Explanation** 
 
 
-![image](https://github.com/user-attachments/assets/b80a6c0a-fc4b-4d4a-9f10-e2cb4e61cec5)
+![image](https://github.com/user-attachments/assets/5b57d9ea-7ad3-4d51-bcfa-adc6899e65ce)![image](https://github.com/user-attachments/assets/244a9d00-5866-46e5-8c7f-6d98d23dec72)
+
+
 
 
 
